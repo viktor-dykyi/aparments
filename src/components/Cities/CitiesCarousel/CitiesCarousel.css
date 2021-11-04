@@ -1,0 +1,17 @@
+.cities-carousel__container .slick-slide {
+  margin-right: 24px;
+  width: 288px !important;
+  height: 208px !important;
+  margin-bottom: 24px;
+}
+
+.slick-prev.slick-arrow {
+  top: 235px !important;
+  left: 0 !important;
+}
+.slick-next.slick-arrow {
+  top: 235px !important;
+  left: 60px !important;
+}
+
+ 

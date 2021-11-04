@@ -1,0 +1,35 @@
+.slick-slide.slick-active.slick-current {
+  margin-right: 16px;
+}
+.slick-slide.slick-active {
+  height: 480px;
+}
+.slick-slide.slick-active div {
+  height: 100%;
+}
+.slick-slide.slick-active div img {
+  height: 100%;
+}
+.image-carousel__container {
+  height: 480px;
+}
+.slick-prev.slick-arrow {
+  top: 504px;
+  left: 0;
+}
+.slick-next.slick-arrow {
+  top: 504px;
+  left: 60px;
+}
+@media (max-width: 375px) {
+  .image-carousel__container{
+    height: 240px;
+  }
+  .slick-list{
+  height: 210px;    
+  }
+  .slick-slide.slick-active {
+    height: 100%;
+    margin-right: 16px;
+  }
+}

@@ -1,0 +1,65 @@
+.cities-carousel__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.cities {
+  background: #1b1918;
+  border-radius: 0px;
+  color: #ffffff;
+  padding-left: 102px;
+  padding-top: 120px;
+  padding-bottom: 46px;
+}
+.cities-favorite {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 46px;
+  margin-top: 109px;
+}
+.cities-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+
+}
+.cities-list {
+  font-size: 14px;
+  line-height: 14px;
+  height: 47px;
+  width: 206px;
+  margin-bottom: 26px;
+}
+.cities-title {
+  margin-bottom: 80px;
+}
+.cities-title-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #a7a6a4;
+}
+.states {
+  font-size: 14px;
+  line-height: 14px;
+  color: #a7a6a4;
+}
+.all-cities {
+  height: 42px;
+  width: 142px;
+  display: flex;
+  justify-content: center;
+  line-height: 42px;
+  color: #ffffff;
+  background: #2e2b29;
+  border-radius: 8px;
+  margin-top: 46px;
+}
+@media (max-width: 375px) {
+  .cities{
+    padding: 25px;
+  }
+  .cities-favorite{
+    overflow: hidden;
+  }
+}

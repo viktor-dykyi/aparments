@@ -1,0 +1,135 @@
+.greetings {
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  background: #f3f3f2;
+  max-height: 640px;
+}
+.greetings__text {
+  padding-top: 35px;
+  width: 371px;
+  padding-left: 102px;
+  padding-right: 167px;
+}
+.greetings__img {
+  width: 50%;
+  height: 698px;
+  padding-right: 102px;
+}
+.greetings__title {
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+}
+.greetings__description {
+  font-size: 18px;
+  line-height: 29px;
+  color: #55524e;
+}
+
+.greetings__questions {
+  position: absolute;
+  display: flex;
+  padding-left: 32px;
+  padding-right: 8px;
+  width: 720px;
+  height: 80px;
+  bottom: 100px;
+  left: 102px;
+  background: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.greetings__questions-item-button {
+  background: #08786c;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 157px;
+  height: 64px;
+}
+.greetings__questions-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 278px;
+  font-size: 13px;
+  line-height: 12px;
+  color: #090808;
+  padding-right: 200px;
+}
+.greetings__questions-item-zoom-icon {
+  margin-right: 8px;
+}
+.greetings__questions-item:first-child {
+  border-right: 1px solid #cecdca;
+}
+.greetings__questions-item-name {
+  font-size: 12px;
+  line-height: 12px;
+  color: #787573;
+  margin-bottom: 8px;
+}
+.greetings__questions-item-value {
+  font-size: 13px;
+  line-height: 12px;
+  color: #090808;
+}
+@media (max-width: 375px) {
+  .greetings {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+  .greetings__text {
+    background-color: white;
+    background: #f3f3f2;
+    z-index: 1;
+    margin-top: 30px;
+    width: 270px;
+    padding-top: 0;
+    padding-right: 0;
+    margin-right: 50px;
+    padding-left: 15px;
+    border-radius: 20px;
+  }
+  .greetings__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .greetings__description {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .greetings__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+  }
+  .greetings__questions {
+    position: static;
+    margin-top: 30px;
+    z-index: 1;
+    justify-content: center;
+    width: 75%;
+    margin-bottom: 15px;
+  }
+  .greetings__questions-item {
+    padding-right: 25px;
+    margin-right: 10px;
+  }
+  .greetings__questions-item-button-text {
+    width: 130px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .greetings__questions-item-button-text {
+    width: 45px;
+  }
+}

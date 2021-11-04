@@ -1,0 +1,43 @@
+.inklydes {
+  padding-left: 102px;
+  background: #194240;
+  border-radius: 0px;
+}
+.inklydes-title {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.inklydes-img {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding-bottom: 83px;
+  width: 1260px;
+}
+.inklydes-img-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-right: 24px;
+  padding-bottom: 12px;
+}
+.inklydes-logo{
+    padding-left: 80px;
+}
+@media (max-width: 375px) {
+  .inklydes{
+    padding-left: 25px;
+  }
+  .inklydes-img{
+    width: 0;
+  }
+  .inklydes-title{
+    padding-top: 15px;
+    font-size: 22px;
+  }
+}
