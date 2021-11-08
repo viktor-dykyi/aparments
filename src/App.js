@@ -1,5 +1,7 @@
 import React from "react";
-import "./App.css"
+import { isValidElement } from "react";
+import { useState } from "react";
+import "./App.css";
 import { Cities } from "./components/Cities/Cities";
 import { Explorer } from "./components/Explorer/Explorer";
 import { Footer } from "./components/Footer/Footer";
@@ -11,17 +13,26 @@ import { Opportunities } from "./components/Opportunities/Opportunities";
 import { OurMembers } from "./components/OurMembers/OurMembers";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+ 
   return (
     <div className="app">
-      <Header/>
-      <Greetings/>
-      <Opportunities/> 
-      <Explorer/>
-      <LandingFurnished/>
-      <LandingInklydes/>
-      <OurMembers/>
-      <Cities/>
-      <Footer/>
+      <div onClick={() => setIsOpen(!isOpen)} className="click">
+        {isOpen ? <span>close</span> : <span>open</span>}
+      </div>
+      {isOpen && (
+        <div>
+          <Header />
+          <Greetings />
+          <Opportunities />
+          <Explorer />
+          <LandingFurnished />
+          <LandingInklydes />
+          <OurMembers />
+          <Cities />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
