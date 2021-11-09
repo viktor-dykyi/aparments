@@ -3,10 +3,12 @@
 ## Screenshots
 
 ### desktop UI
-![screencapture-localhost-3001-2021-11-09-16_46_13](https://user-images.githubusercontent.com/79012453/140946232-15cfebe4-221b-448a-918a-f8a91c0a49bf.png)
+
+![aaaaaaaa](https://user-images.githubusercontent.com/79012453/140960096-623230f8-0bdf-4b92-8890-20f99c78313b.png)
 
 ### Mobile UI
-![screencapture-localhost-3001-2021-11-09-16_56_49](https://user-images.githubusercontent.com/79012453/140948127-f76486e2-84e3-46b0-a28e-badf03057855.png)
+
+![aaaaaa__2](https://user-images.githubusercontent.com/79012453/140960595-1f695040-4580-491e-8da9-648a8b74d03d.png)
 
 # Getting Started with Create React App
 
