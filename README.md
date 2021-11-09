@@ -1,3 +1,13 @@
+# Landing
+
+## Screenshots
+
+### desktop UI
+![screencapture-localhost-3001-2021-11-09-16_46_13](https://user-images.githubusercontent.com/79012453/140946232-15cfebe4-221b-448a-918a-f8a91c0a49bf.png)
+
+### Mobile UI
+![screencapture-localhost-3001-2021-11-09-16_56_49](https://user-images.githubusercontent.com/79012453/140948127-f76486e2-84e3-46b0-a28e-badf03057855.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
