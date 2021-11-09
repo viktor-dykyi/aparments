@@ -34,13 +34,13 @@ export const ImageCarousel = () => {
   return (
     <div className="image-carousel__container">
       <Slider {...settings}>
-        <img src={oneImg} alt="" className="image-carousel" />
-        <img src={twoImg} alt="" className="image-carousel" />
-        <img src={threeImg} alt="" className="image-carousel" />
-        <img src={fourImg} alt="" className="image-carousel" />
-        <img src={fiveImg} alt="" className="image-carousel" />
-        <img src={sixImg} alt="" className="image-carousel" />
-        <img src={sevenImg} alt="" className="image-carousel" />
+        <img src={oneImg} alt="img" className="image-carousel" />
+        <img src={twoImg} alt="img" className="image-carousel" />
+        <img src={threeImg} alt="img" className="image-carousel" />
+        <img src={fourImg} alt="img" className="image-carousel" />
+        <img src={fiveImg} alt="img" className="image-carousel" />
+        <img src={sixImg} alt="img" className="image-carousel" />
+        <img src={sevenImg} alt="img" className="image-carousel" />
       </Slider>
     </div>
   );
